@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="logaligroup.SAPUI5.controller.App">
+
+    <Button text="{i18n>showHelloButton}" press=".onshowHello"/>
+    <Input placeholder="Ingrese nombre..." value="{/recipient/name}" description="Hola {/recipient/name}"
+    valueLiveUpdate="true" width="60%"/>
+    
+</mvc:View>
